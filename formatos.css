@@ -1,0 +1,115 @@
+*{  padding: 0; margin: 0; border: 0; box-sizing: border-box; }
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(233, 150, 122);
+}
+.div-titulo{
+    display: flex; /* coloca as imagens uma ao lado da outra */
+    justify-content: center; /* alinha as imagens horizontalmente no centro da tela */
+    align-items: center;  /*alinha as imagens verticalmente no centro da tela */
+    height: 50px;
+    margin-bottom: 20px;
+}
+header{
+    height: 60px;
+}
+nav{
+    position: fixed;
+}
+main{
+    background-color: rgb(233, 150, 122);
+    height: calc(100vh - 100px);
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+form div.row{
+    margin-top: 15px;
+}
+fieldset.col-9{
+    margin-top: 50px;
+}
+fieldset.col-9>legend{
+    font-size: 55px;
+}
+form{
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+footer {
+    color: white;
+    background-color: black;
+    height: 25px;
+    padding: 20px;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* alinha as imagens horizontalmente no centro da tela */
+    align-items: center;  /*alinha as imagens verticalmente no centro da tela */
+}
+.flex-row{
+    display: flex;
+    justify-content: center; /* alinha as imagens horizontalmente no centro da tela */
+    align-items: center;  /*alinha as imagens verticalmente no centro da tela */
+}
+.section-wid{
+    width: 990px;
+}
+section.justify-evenly{
+    justify-content: space-evenly;
+}
+.logotipo {
+    width: 50px;
+    height: 50px;
+}
+.texto-centralizado {
+    text-align: center;
+    font-weight: bolder;
+}
+p{
+    margin: 0;
+}
+.artigo{
+    background-color: rgb(249, 250, 210);
+    width: 280px;
+    height: 460px;
+    padding: 5px;
+}
+article.card{
+    height: 480px;
+}
+.card ul{
+    /*list-style: none;*/
+    list-style-position: inside;
+    margin-left: 20px;
+}
+.imagem{
+    height: 130px;
+}
+
+section > .artigo:nth-of-type(1) div{
+    background-image: url(11_arroz-de-couve-flor_08a1f6ed41.jpg);
+    background-size: cover;
+}
+section > .artigo:nth-of-type(2) div{
+    background-image: url(Bolo-de-cafe-e-chocolate.jpg);
+    background-size: cover;
+}
+section > .artigo:nth-of-type(3) div{
+    background-image: url(ca2e326d86d10c8be26f9b90d1aaec2d.jpg);
+    background-size: cover;
+}
+
+.artigo > h4{
+    margin: 15px 0 15px 0
+}
