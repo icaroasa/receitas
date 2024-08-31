@@ -12,6 +12,9 @@ body{
     height: 50px;
     margin-bottom: 20px;
 }
+.div-titulo h1{
+    margin-bottom: 0;
+}
 header{
     height: 60px;
 }
